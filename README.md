@@ -2,6 +2,8 @@
 
 A coffee app built with Flutter
 
+![Project Logo](assets/Design.png)
+
 ## Getting Started
 
 To run the app use the following command:
