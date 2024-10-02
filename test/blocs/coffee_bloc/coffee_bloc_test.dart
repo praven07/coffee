@@ -47,7 +47,7 @@ void main() {
     blocTest<CoffeeBloc, CoffeeState>(
       'emits [CoffeeLoading, CoffeeFailed] when LoadCoffee is added and fails',
       setUp: () {
-        when(() => mockCoffeeService.getRandom()).thenThrow(
+        when(mockCoffeeService.getRandom()).thenThrow(
           Exception('Failed to load coffee'),
         );
       },
