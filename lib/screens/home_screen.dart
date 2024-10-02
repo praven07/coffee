@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   AppBar _buildAppBar() {
     return AppBar(
-      title: const AppBarTitle(title: "Coffee Mania"),
+      title: const AppBarTitle(title: "Coffee"),
       actions: [
         _buildFavoriteIconButton(),
       ],
